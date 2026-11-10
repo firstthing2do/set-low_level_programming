@@ -79,3 +79,44 @@ The source filename is obtained from the `CFILE` environment variable. GCC perfo
 4. Run the executable:
 
    `./cisfun`
+
+### Task 4: Hello, puts
+
+The `4-puts.c` program prints the message `"Programming is like building a multilingual puzzle` using the `puts()` function.
+
+It does not use `printf()` and returns 0 after successful execution.
+
+**Compilation and execution:**
+
+```bash
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c
+./a.out
+```
+
+### Task 5: Hello, printf
+
+The `5-printf.c` program prints the message `with proper grammar, but the outcome is a piece of art,` using the `printf()` function.
+
+It does not use `puts()` and returns 0 after successful execution.
+
+**Compilation and execution:**
+
+```bash
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 5-printf.c
+./a.out
+```
+
+### Task 6: Size is Not Grandeur, and Territory Does Not Make a Nation
+
+The `6-size.c` program uses the `sizeof` operator to display the memory sizes of five C data types: `char`, `int`, `long int`, `long long int`, and `float`.
+
+The program returns 0 after execution.
+
+**Compilation and execution:**
+
+```bash
+gcc 6-size.c -m32 -o size32
+gcc 6-size.c -m64 -o size64
+./size32
+./size64
+```
