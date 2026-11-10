@@ -39,3 +39,21 @@ The source filename is obtained from the `CFILE` environment variable. The resul
    `./1-compiler`
 
 3. The compiled object file will be saved as `main.o`.
+
+### Task 2: Assembly
+
+The `2-assembler` script generates assembly code from a C source file using GCC.
+
+The source filename is obtained from the `CFILE` environment variable. The generated assembly code is saved in a file with the same name as the source file but with the `.s` extension.
+
+### Usage
+
+1. Set the C file name:
+
+   `export CFILE=main.c`
+
+2. Execute the script:
+
+   `./2-assembler`
+
+3. The generated assembly code will be saved as `main.s`.
