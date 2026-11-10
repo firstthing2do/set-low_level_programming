@@ -57,3 +57,25 @@ The source filename is obtained from the `CFILE` environment variable. The gener
    `./2-assembler`
 
 3. The generated assembly code will be saved as `main.s`.
+
+### Task 3: Name
+
+The `3-name` script compiles a C source file and creates an executable named `cisfun`.
+
+The source filename is obtained from the `CFILE` environment variable. GCC performs preprocessing, compilation, assembly, and linking to produce the executable.
+
+### Usage
+
+1. Set the C file name:
+
+   `export CFILE=main.c`
+
+2. Execute the script:
+
+   `./3-name`
+
+3. The resulting executable will be named `cisfun`.
+
+4. Run the executable:
+
+   `./cisfun`
