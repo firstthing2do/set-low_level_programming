@@ -21,3 +21,21 @@ The C file is specified through the `CFILE` environment variable, and the prepro
    `./0-preprocessor`
 
 3. The preprocessed output will be saved in the file `c`.
+
+### Task 1: Compiler
+
+The `1-compiler` script compiles a C source file into an object file without linking.
+
+The source filename is obtained from the `CFILE` environment variable. The resulting object file has the same filename as the source file but uses the `.o` extension.
+
+### Usage
+
+1. Set the C file name:
+
+   `export CFILE=main.c`
+
+2. Execute the script:
+
+   `./1-compiler`
+
+3. The compiled object file will be saved as `main.o`.
