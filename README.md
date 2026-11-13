@@ -3,3 +3,4 @@
 Our directories so far:
 - 0x00-hello_world
 - 0x20-functions_nested_loops
+- 0x03-debugging
