@@ -1,7 +1,7 @@
-# 0 "main.c"
+# 0 "0-main.c"
 # 0 "<built-in>"
 # 0 "<command-line>"
-# 1 "main.c"
+# 1 "0-main.c"
 # 1 "C:/msys64/ucrt64/include/stdio.h" 1 3
 # 9 "C:/msys64/ucrt64/include/stdio.h" 3
 # 1 "C:/msys64/ucrt64/include/corecrt_wstdio.h" 1 3
@@ -1778,7 +1778,7 @@ extern
 
 
 
-# 2 "main.c" 2
+# 2 "0-main.c" 2
 
 
 
@@ -1786,7 +1786,7 @@ extern
 
 
 
-# 8 "main.c"
+# 8 "0-main.c"
 int main(void)
 {
  return (0);
